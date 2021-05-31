@@ -1,0 +1,165 @@
+/**
+* @name LilyPichu Blue Remix xICEPICK EDIT V3
+* @author Nyria, edited by xICEPICK#9110 and 1.5 kase CacÄ±k#5876 and now Project SnowDrift#8982
+* @description Edited version of the Lily Pichu theme.
+* @invite rtBQX5D3bD
+* @version 1.0
+*/
+@import url("https://xicepick.github.io/Discord-Themes/Lily_Pichu_Edit.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Background (if you want an image replace it by :
+
+--background-tertiary-alt: url("image"); */
+
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+/* Background color of activity cards*/
+--playing: #8ea6fc;
+--spotify: #5fce86;
+--streaming: #9b77da;
+--xbox: #53a853;
+
+}
+
+.theme-dark {
+
+--background-tertiary-alt: url("https://i.imgur.com/4NVqWeW.png");
+    /* Text */
+    --text-normal: #abceff;
+    --header-primary: #5994e7;
+    --interactive-normal: #abceff;
+    --channels-default: #abceff;
+
+    --text-muted: #8eaeda;
+    --interactive-muted: #7a97bf;
+
+    --header-secondary: #abceff;
+    --interactive-hover: #d6e7ff;
+    --interactive-active: #abceff;
+
+    /* Background color */
+    --background-primary: #2e425e;
+    --background-secondary: #1e2e45;
+    --background-secondary-alt: #131f30;
+    --background-tertiary: #142030;
+     --background-floating: #0f1926;
+    --background-accent: #abceff;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(31, 42, 56, 0.32);
+    --background-modifier-active: rgba(12, 14, 19, 0.32);
+    --background-modifier-selected: rgba(21, 23, 31, 0.32);
+    --toast-background: #abceff !important;
+    --toast-header: #abceff !important;
+    --toast-contents: #abceff !important;
+    --toast-border: #abceff !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: #557bad;
+    --scrollbar-auto-track: #0f1926;
+    --scrollbar-thin-thumb: #557bad;
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #abceff;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #5c80b3 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #5c80b3 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color:#abceff; border-color: #abceff;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+.theme-light {
+
+--background-tertiary-alt: url("https://i.imgur.com/lw3IVMd.png");
+    /* Text */
+    --text-normal: #abceff;
+    --header-primary: #abceff;
+    --interactive-normal: #abceff;
+    --channels-default: #abceff;
+
+    --text-muted: #8eaeda;
+    --interactive-muted: #7a97bf;
+
+    --header-secondary: #abceff;
+    --interactive-hover: #d6e7ff;
+    --interactive-active: #abceff;
+
+    /* Background color */
+    --background-primary: #5b779e;
+    --background-secondary: #3d5475;
+    --background-secondary-alt: #506d97;
+    --background-tertiary: #334b6d;
+     --background-floating: #334b6d;
+    --background-accent: #abceff;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(31, 42, 56, 0.32);
+    --background-modifier-active: rgba(12, 14, 19, 0.32);
+    --background-modifier-selected: rgba(21, 23, 31, 0.32);
+    --toast-background: #abceff !important;
+    --toast-header: #abceff !important;
+    --toast-contents: #abceff !important;
+    --toast-border: #abceff !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: #abceff;
+    --scrollbar-auto-track: #334b6d;
+    --scrollbar-thin-thumb: #abceff;
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #abceff;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #5c80b3 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #558cd8 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color:#abceff; border-color: #abceff;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+      /* Container gif */
+    .container-2lgZY8::after {
+      content: "Stay comfy! ❤";
+      position: fixed;
+      top: 22px;
+      bottom: 95px;
+      right: 60px;
+      z-index: -2;
+      width: 320px;
+      background-color: var(--background-primary);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: var(--header-primary);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+    }
+
+    .container-2lgZY8::before {
+      content: "";
+      position: fixed;
+      top: 420px;
+      bottom: 200px;
+      right: -32px;
+      z-index: -1;
+      width: 500px;
+      border-radius: var(--border-radius);
+      background: url("https://i.imgur.com/qaQmHtw.gif") bottom/40% no-repeat;
+    }
