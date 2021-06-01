@@ -8,5 +8,3 @@ Red Preview: [Dark](https://gibbu.github.io/ThemePreview/?file=https://snowdrift
 Purple Preview: [Dark](https://gibbu.github.io/ThemePreview/?file=https://snowdrift8.github.io/SnowDriftLilypichuRemixs/LilyPichu_xICEPICK_edit_PurpleRemix.theme.css) [Light](https://gibbu.github.io/ThemePreview/?file=https://snowdrift8.github.io/SnowDriftLilypichuRemixs/LilyPichu_xICEPICK_edit_PurpleRemix.theme.css&lightTheme=true) 
 
 Green Preview: [Dark](https://gibbu.github.io/ThemePreview/?file=https://snowdrift8.github.io/SnowDriftLilypichuRemixs/LilyPichu_xICEPICK_edit_GreenRemix.theme.css) [Light](https://gibbu.github.io/ThemePreview/?file=https://snowdrift8.github.io/SnowDriftLilypichuRemixs/LilyPichu_xICEPICK_edit_GreenRemix.theme.css&lightTheme=true) 
-
-https://media2.giphy.com/media/3rve6FbBOTeM9eBDkM/giphy.gif
